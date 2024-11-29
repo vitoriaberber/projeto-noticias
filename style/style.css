@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+:root {
+    --preto: #000000;
+    --branco: #ffffff;
+    --vermelho: #ff0000;
+
+    --fonte: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0 .5rem;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    font-family: var(--fonte);
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho__topo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .7rem;
+    justify-content: center;
+    font-size: 12px;
+    margin: .5rem 0 .2rem 0;
+}
+
+.cabecalho__separacao {
+    color: var(--preto);
+    margin: .2rem 0;
+}
+
+.cabecalho__titulo {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 5rem;
+    padding: .7rem;
+    text-shadow: 1px 1px 1px var(--preto);
+    margin: 0 .5rem;
+}
+
+.cabecalho__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .2rem 2rem;
+    justify-content: center;
+    list-style-type: disc;
+}
+
+.principal{
+    color: var(--branco);
+}
+
+.principal__sessao {
+    background: url("../assets/predio.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.principal__titulo {
+    font-weight: bolder;
+    display: inline;
+    font-size: 3rem;
+    padding: 0 .5rem .5rem 0;
+    text-shadow: 1px 1px 1px var(--preto);
+    margin: .5rem
+}
+
+.principal__texto {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: .6rem;
+}
+
+.principal__secundario {
+    background: url("../assets/carro.jpg") no-repeat center center;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.texto {
+    width: auto;
+}
+
+.principal__terciario {
+    background: url("../assets/apple.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.rodape {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 1rem 0.6rem;
+    font-size: 13px;
+    gap: 1rem;
+}
+
+.rodape__texto {
+    font-weight: bolder;
+}
+
+.rodape__numero {
+    background-color: var(--preto);
+    padding: .7rem;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: var(--branco);
+}

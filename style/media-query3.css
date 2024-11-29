@@ -1,0 +1,22 @@
+@media screen and (width >= 858px) {
+    .principal {
+        line-height: 1.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+        line-height: 1.4rem;
+    }
+
+    .principal__sessao {
+        width: 50%;
+    }
+
+    .sessao__texto {
+        width: 95%;
+        font-size: 1.2rem;
+    }
+
+    .sessao__imagem {
+        width: 95%;
+    }
+}

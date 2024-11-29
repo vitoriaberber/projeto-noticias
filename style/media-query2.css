@@ -1,0 +1,60 @@
+@media screen and (width >= 858px) {
+    .principal {
+        line-height: 1.4rem;
+    }
+    .principal__sessao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sessao__texto {
+        font-size: 1.2rem;
+        margin-left: .5rem;
+    }
+    .primeiro {
+        width: 50%;
+    }
+    .continuacao {
+        margin-top: 1rem;
+    }
+    .sessao__imagem {
+        width: 47%;
+    }
+
+    .rodape {
+        margin: .5rem .6rem;
+        font-size: 14px;
+    }
+}
+
+@media screen and (width >= 1050px) {
+    
+    .cabecalho__titulo {
+        font-size: 4rem;
+    }
+
+    .sessao__imagem {
+        width: 30%;
+        height: 50%;
+        margin-right: 2rem;
+    }
+
+    .primeiro {
+        width: 60%;
+    }
+    .continuacao {
+        margin-top: .5rem;
+    }
+}
+
+@media screen and (width >= 1250px) {
+    .sessao__imagem {
+        width: 20%;
+        height: 40%;
+        margin-right: 2rem;
+    }
+
+    .primeiro {
+        width: 75%;
+    }
+}
